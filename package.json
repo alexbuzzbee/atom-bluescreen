@@ -1,0 +1,13 @@
+{
+  "name": "atom-bluescreen",
+  "main": "./lib/bluescreen",
+  "version": "0.0.1-dev",
+  "description": "Displays a 'blue screen of death' when a fatal error occurs.",
+  "repository": "https://github.com/alexbuzzbee/atom-bluescreen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "dependencies": {
+  }
+}

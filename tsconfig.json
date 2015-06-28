@@ -1,0 +1,32 @@
+{
+    "version": "0.0.1-dev",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./definitions/atom/atom.d.ts",
+        "./definitions/emissary/emissary.d.ts",
+        "./definitions/jquery/jquery.d.ts",
+        "./definitions/mixto/mixto.d.ts",
+        "./definitions/node/node.d.ts",
+        "./definitions/pathwatcher/pathwatcher.d.ts",
+        "./definitions/q/Q.d.ts",
+        "./definitions/space-pen/space-pen.d.ts",
+        "./definitions/status-bar/status-bar.d.ts",
+        "./definitions/text-buffer/text-buffer.d.ts",
+        "./lib/bluescreen.ts",
+        "./lib/display.ts",
+        "./lib/generate.ts"
+    ]
+}

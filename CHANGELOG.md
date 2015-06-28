@@ -1,5 +1,9 @@
 # Changelog for Atom Bluescreen
 
+## 0.1.2
+
+ * Fixed package.json's engines property (makes the package installable).
+
 ## 0.1.1
 
  * Added changelog (whoops).
